@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
         { name: 'card1', img: 'images/golf course.jpeg' },
         { name: 'card1', img: 'images/golf course.jpeg' },
-        { name: 'card2', img: 'images/Scarlett.jpg' },
-        { name: 'card2', img: 'images/Scarlett.jpg' },
+        { name: 'card2', img: 'images/drake.png' },
+        { name: 'card2', img: 'images/drake.png' },
         { name: 'card3', img: 'images/fine.png' },
         { name: 'card3', img: 'images/fine.png' },
         { name: 'card4', img: 'images/rollsafe.png' },
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = [];
 
         if (cardsWon.length === cardArray.length / 2) {
-            alert('Congratulations, Stormers! You found them all!');
+            alert('Congratulations! You found them all!');
         }
     }
 
